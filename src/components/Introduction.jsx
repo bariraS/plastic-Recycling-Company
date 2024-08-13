@@ -4,6 +4,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
+
 gsap.registerPlugin(ScrollTrigger);
 
 

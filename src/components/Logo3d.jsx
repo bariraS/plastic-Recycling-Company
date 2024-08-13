@@ -13,6 +13,9 @@ const TextModel = React.forwardRef((props, ref) => {
   return <primitive object={scene} ref={ref} {...props} />;
 });
 
+LogoModel.displayName = 'LogoModel';
+TextModel.displayName = 'TextModel';
+
 const RotatingLogo = (props) => {
   const logoRef = useRef();
   const textRef = useRef();
@@ -35,6 +38,8 @@ const RotatingLogo = (props) => {
   );
 };
 
+RotatingLogo.displayName = 'RotatingLogo';
+
 const Logo3D = () => {
   return (
     <div className="w-28 h-24 relative">
@@ -50,5 +55,7 @@ const Logo3D = () => {
     </div>
   );
 };
+
+Logo3D.displayName = 'Logo3D'
 
 export default Logo3D;
