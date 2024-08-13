@@ -31,7 +31,7 @@ const ProductsSection = ({
       name: 'HDPE',
       corId: 'product-3',
       detail: `${t('productSection:hdpe')}`,
-      imgSrc: '/images/newhdpeimage.webp',
+      imgSrc: '/images/hdpenew.webp',
     },
     {
       name: 'PET or PETE',
