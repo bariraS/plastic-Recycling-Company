@@ -31,7 +31,7 @@ const ProductsSection = ({
       name: 'HDPE',
       corId: 'product-3',
       detail: `${t('productSection:hdpe')}`,
-      imgSrc: '/images/hd-plastic.webp',
+      imgSrc: '/images/newhdpeimage.webp',
     },
     {
       name: 'PET or PETE',
@@ -43,7 +43,7 @@ const ProductsSection = ({
       name: 'PVC',
       corId: 'product-2',
       detail: `${t('productSection:pvc')}`,
-      imgSrc: '/images/pvc-plastic.jpg',
+      imgSrc: '/images/newpvc.webp',
     },
     {
       name: 'PP',
@@ -55,7 +55,7 @@ const ProductsSection = ({
       name: 'PS',
       corId: 'product-1',
       detail: `${t('productSection:ps')}`,
-      imgSrc: '/images/ps-plastic.jpg',
+      imgSrc: '/images/PSimage.jpg',
     },
     {
       name: 'LDPE',
@@ -90,7 +90,7 @@ const ProductsSection = ({
         {t('productSection:heading')}
         </h2>
         <p className={tailwindClasses.subtitle} ref={paraRef}>
-          {t('productSection:para')}
+        Explore some of our wide range of plastic granules    
         </p>
         <div className={tailwindClasses.contactGrid}>
           {productList.map((product, index) => (

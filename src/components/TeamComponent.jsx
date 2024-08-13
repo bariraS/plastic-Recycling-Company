@@ -41,10 +41,12 @@ const TeamComponent = () => {
     {
       name: 'Abdul Wadood',
       position: `${t('team:position2')}`,
-      imgSrc: '/images/team/wadood-pic.jpeg',
+      imgSrc: '/images/abdulwadood1.png',
       email: 'mailto:Shipping@ecodaqs.com',
       linkedin: 'https://www.linkedin.com/in/abdul-wadood-301180267/'
     },
+    
+
   
   ];
   useEffect(() => {
