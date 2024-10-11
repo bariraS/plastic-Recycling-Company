@@ -46,6 +46,7 @@ const FooterComponent = () => {
           <p>+1 (438) 874-1201</p>
           <p>+1 (438) 943-5773</p>
           <p>Info@ecodaqs.com</p>
+          <p>Shipping@ecodaqs.com</p>
           <p>6311 Boul Gouin Ouest Suite 103 Montreal, Quebec, H4K 1A7</p>
         </div>
       </div>
